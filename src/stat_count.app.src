@@ -1,0 +1,13 @@
+{application, stat_count, [
+    {description, "Hello world with Cowboy!"},
+    {vsn, "0.1.0"},
+    {modules, []},
+    {registered, [stat_count_sup]},
+    {applications, [
+        kernel,
+        stdlib,
+        cowboy
+    ]},
+    {mod, {stat_count_app, []}},
+    {env, []}
+]}.

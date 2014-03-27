@@ -1,0 +1,6 @@
+deps/**/*
+_rel/
+ebin/
+relx
+deps/
+erlang.mk
